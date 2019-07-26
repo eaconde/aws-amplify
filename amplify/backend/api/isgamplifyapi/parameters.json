@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "isgamplifyapi",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authquickstartapp698fcd3b",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

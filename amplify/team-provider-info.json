@@ -1,0 +1,36 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "quickstart-app-dev-20190726141637-authRole",
+            "UnauthRoleArn": "arn:aws:iam::769363926997:role/quickstart-app-dev-20190726141637-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::769363926997:role/quickstart-app-dev-20190726141637-authRole",
+            "Region": "ap-southeast-1",
+            "DeploymentBucketName": "quickstart-app-dev-20190726141637-deployment",
+            "UnauthRoleName": "quickstart-app-dev-20190726141637-unauthRole",
+            "StackName": "quickstart-app-dev-20190726141637",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:769363926997:stack/quickstart-app-dev-20190726141637/f77e5050-af6c-11e9-8ad8-0240f4732b08"
+        },
+        "categories": {
+            "auth": {
+                "quickstartapp698fcd3b": {}
+            }
+        }
+    },
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "quickstart-app-prod-20190726145414-authRole",
+            "UnauthRoleArn": "arn:aws:iam::769363926997:role/quickstart-app-prod-20190726145414-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::769363926997:role/quickstart-app-prod-20190726145414-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "quickstart-app-prod-20190726145414-deployment",
+            "UnauthRoleName": "quickstart-app-prod-20190726145414-unauthRole",
+            "StackName": "quickstart-app-prod-20190726145414",
+            "StackId": "arn:aws:cloudformation:us-east-1:769363926997:stack/quickstart-app-prod-20190726145414/399d3f50-af72-11e9-8a38-0abba1914a70"
+        },
+        "categories": {
+            "auth": {
+                "quickstartapp698fcd3b": {}
+            }
+        }
+    }
+}
